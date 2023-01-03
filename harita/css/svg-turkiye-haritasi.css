@@ -1,0 +1,85 @@
+/*! SVG Türkiye Haritası | CSS | MIT Lisans | dnomak.com */
+
+.svg-turkiye-haritasi {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.svg-turkiye-haritasi svg {
+  width: 100%;
+  height: auto;
+}
+
+.il-isimleri {
+  position: absolute;
+  z-index: 2;
+}
+
+.il-isimleri div {
+  font-family: 'Open Sans';
+  display: inline-block;
+  background: #e9045c;
+  color: #fff;
+  padding: 8px 16px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+}
+
+
+
+#svg-turkiye-haritasi path {
+
+  fill: #222;
+}
+
+#svg-turkiye-haritasi path:hover {
+  fill: #1094F6;
+
+}
+
+#svg-turkiye-haritasi g #izmir path {
+  fill: crimson;
+}
+
+#svg-turkiye-haritasi g #izmir path:hover {
+  fill: rgba(81, 200, 204, 0.384);
+  cursor: pointer;
+}
+
+#svg-turkiye-haritasi g #istanbul path {
+  fill: crimson;
+}
+
+#svg-turkiye-haritasi g #istanbul path:hover {
+  fill: rgba(81, 200, 204, 0.384);
+  cursor: pointer;
+}
+
+#svg-turkiye-haritasi g #bursa path {
+  fill: crimson;
+}
+
+#svg-turkiye-haritasi g #bursa path:hover {
+  fill: rgba(81, 200, 204, 0.384);
+  cursor: pointer;
+}
+
+
+#svg-turkiye-haritasi g #ankara path {
+  fill: crimson;
+}
+
+#svg-turkiye-haritasi g #ankara path:hover {
+  fill: rgba(81, 200, 204, 0.384);
+  cursor: pointer;
+
+}
+
+
+#guney-kibris {
+  pointer-events: none;
+}
